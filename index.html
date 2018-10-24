@@ -7,13 +7,22 @@
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title></title>
+    <title>Leap Year Detector</title>
   </head>
   <body>
     <div class="container">
-      
+      <h1>Leap Year Detector</h1>
+      <form id="leap-year">
+        <div class="form-group">
+          <label for="year">Enter a year to find out if it's a leap year:</label>
+          <input type="text" id="year">
+        </div>
+        <button type="submit" class="btn-primary">Enter!</button>
 
-
+      </form>
+      <div id="result">
+        <p><span class="year"></span> is <span class="not"></span> a leap year.</p>
+      </div>
     </div>
   </body>
 </html>
